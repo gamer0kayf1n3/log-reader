@@ -243,6 +243,7 @@ function App() {
         )}
       </div>
       <span>For internal use of Straight Up Not Straight (SUNS) Group. All rights reserved. <a href="https://f1n3.xyz">gamer0kayf1n3</a> (C)</span>
+      <a href="https://www.buymeacoffee.com/0kayf1n3"><img src="https://img.buymeacoffee.com/button-api/?text=Just in case... BMAC? :3&emoji=🚀&slug=0kayf1n3&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
     </>
   )
 }
