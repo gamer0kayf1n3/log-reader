@@ -1,0 +1,92 @@
+.chatContent {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.joinBlock {
+  text-align: center;
+  font-size: 10px;
+  color: var(--text-h);
+  display: block;
+  margin: 0.5em auto;
+  width: fit-content;
+  padding: 1px 8px;
+  border-radius: 4px;
+  background: var(--code-bg);
+}
+
+.top {
+  display: flex;
+  gap: 0.3em;
+  margin-top: 0.4em;
+}
+
+.datetime {
+  font-size: 10px;
+  color: var(--text-h);
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  color: var(--text-h);
+}
+
+.main {
+  font-size: 16px;
+  line-height: 135%;
+  color: var(--text);
+}
+
+.advancement {
+  font-size: 24px;
+  color: var(--text);
+  font-weight: 700;
+  padding-left: 20px; 
+}
+
+.advancementParent {
+  padding: 6px 10px;
+  background-color: rgb(35, 26, 103);
+  width: 400px;
+  max-width: 90%;
+  border-radius: 8px;
+  margin: 0.5em 0;
+}
+
+.advancementParent .top {
+  display: flex;
+  gap: 0.3em;
+  margin-top: 0;
+}
+
+.chat a, .top a {
+  text-decoration: none;
+}
+
+.search-container {
+  margin: 15px 0;
+}
+
+.search-input {
+  padding: 8px 12px;
+  width: 300px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.clear-search-btn {
+  margin-left: 8px;
+  padding: 8px 12px;
+}
+
+.pagination-controls {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
