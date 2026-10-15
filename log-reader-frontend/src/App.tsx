@@ -1,7 +1,7 @@
 import './App.css'
 import { useEffect, useState, useMemo } from 'react'
 import JoinLeave from './components/JoinLeave.tsx'
-import Chat from './components/chat.tsx'
+import Chat from './components/Chat.tsx'
 import Advancement from './components/Advancement.tsx'
 
 function dealWithTextInChunks(text: string, onProgress: (partialData: any[]) => void, onComplete: () => void) {
